@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>City Search</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        #searchInput {
+            width: 300px;
+            padding: 10px;
+            font-size: 16px;
+        }
+
+        #result {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>City Search</h1>
+    <input type="text" id="searchInput" placeholder="Enter a city name">
+    <button onclick="searchCity()">Search</button>
+    <div id="result">
+        <canvas id="chart"></canvas> <!-- Add a canvas element for the chart -->
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> <!-- Include Chart.js -->
+    <script src="script.js"></script>
+</body>
+</html>
